@@ -207,7 +207,7 @@ th {
 
 header {
   width:315px;
-  float:left;
+  float:right;
   position:fixed;
   border-right: 1px solid #eee;
   padding: 30px 10px 40px 0;
@@ -249,7 +249,7 @@ header h1 {
 }
 /* Dropdown button */
 .dropdown .dropbtn {
- font-size: 20px;
+ font-size: 16px;
  border: none;
  outline: none;
  color: black;
@@ -272,7 +272,7 @@ header h1 {
  float: left;
  font-size: 20px;
  color: black;
- text-align: center;
+ text-align: left;
  padding: 12px 14px;
  text-decoration: none;
 }
