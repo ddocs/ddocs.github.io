@@ -222,22 +222,24 @@ header h1 {
 /* Vertical menu */
 .vertical-menu {
     width: 200px; /* Set a width if you like */
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 20px;
 }
 
 .vertical-menu a {
-    background-color: #eee; /* Grey background color */
+    background-color: white; /* white background color */
     color: black; /* Black text color */
     display: block; /* Make the links appear below each other */
-    padding: 12px; /* Add some padding */
+    padding: 25px; /* Add some padding */
     text-decoration: none; /* Remove underline from links */
 }
 
 .vertical-menu a:hover {
-    background-color: #ccc; /* Dark grey background on mouse-over */
+    background-color: #F0F8FF; /* Alice Blue background on mouse-over */
 }
 
 .vertical-menu a.active {
-    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    background-color: #66CDAA; /* Medium aquamarine color to the "active/current" link */
     color: white;
 }
 /* The dropdown container */
@@ -251,11 +253,13 @@ header h1 {
  border: none;
  outline: none;
  color: black;
- padding: 14px 14px;
+ padding: 14px,14px,5px,20px;
  background-color: inherit;
  font-family: inherit; /* Important for vertical align on mobile phones */
  margin: 0; /* Important for vertical align on mobile phones */
 }
+
+
 /* Navbar container */
 .navbar {
  overflow: hidden;
