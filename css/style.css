@@ -259,6 +259,10 @@ header h1 {
  margin: 0; /* Important for vertical align on mobile phones */
 }
 
+/* Dropdown content */
+.dropdown-content {
+  font-size: 16px
+}
 
 /* Navbar container */
 .navbar {
