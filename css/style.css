@@ -362,6 +362,14 @@ header h1 {
 
 /* Post Content */
 
+.container {
+  width:600px;
+  float:right;
+  padding-bottom:50px;
+  min-height: 400px;
+  overflow: hidden;
+}  
+
 .post-title {
   margin-bottom: 0;
 }
