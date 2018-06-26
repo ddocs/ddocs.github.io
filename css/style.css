@@ -222,7 +222,7 @@ header h1 {
 
 /* Vertical menu */
 .vertical-menu {
-    width: 100px; /* Set a width if you like */
+    width: 120px; /* Set a width if you like */
     font-family: 'Fredericka the Great', cursive;
     font-size: 40px;
 }
@@ -231,7 +231,7 @@ header h1 {
     background-color: white; /* white background color */
     color: black; /* Black text color */
     display: block; /* Make the links appear below each other */
-    padding: 14px,14px,5px,20px; /* Add some padding */
+    padding: 20px,0px,20px; /* Add some padding */
     text-decoration: none; /* Remove underline from links */
 }
 
@@ -263,6 +263,7 @@ header h1 {
 /* Dropdown content */
 .dropdown-content {
   font-size: 16px
+ 
 }
 
 /* Navbar container */
@@ -278,7 +279,7 @@ header h1 {
  font-size: 20px;
  color: black;
  text-align: left;
- padding: 12px 14px;
+ padding: 12px 14px 5px 30px;
  text-decoration: none;
 }
 
