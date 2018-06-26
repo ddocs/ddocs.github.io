@@ -517,17 +517,13 @@ a.post-banner:hover { background-size: auto 104%; }
 
 /* Footer / Sidebar */
 
-
 footer {
   font-size: 14px;
   text-align: center;
-  width:315px;
+  width:275px;
   float:left;
   position:fixed;
-  border-right: 1px solid #eee;
-  padding: 30px 10px 40px 100px;
-  min-height: 100%;
-  margin: -50px 0;
+  bottom:50px;
 }
 
 img.avatar {
