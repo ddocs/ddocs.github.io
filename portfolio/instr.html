@@ -3,17 +3,18 @@ layout: default
 title: Portfolio
 ---
 <head>
+<style>
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#slider1').bxSlider({
-                auto: true,
-                pager: true,
-                slideWidth: 800,
-                captions: false
-            });
-        });
-    </script>
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+</style>
 </head>
 
 <body>
@@ -22,10 +23,13 @@ title: Portfolio
 <section>
     <h2> Instructional Design </a></h2>
 
-    <ul id="slider1">
-      <li><img src="/img/AbilityNet-screenshots/1.jpg" title="E-learning Screenshot" /></li>
-      <li><img src="/img/AbilityNet-screenshots/3.jpg" title="E-learning Screenshot" /></li>
-    </ul>
+    
+      <a target="_blank" href="/img/AbilityNet-screenshots/1.jpg">
+          <img src="/img/AbilityNet-screenshots/1.jpg" title="E-learning Screenshot" />
+          
+      <a target="_blank" href="/img/AbilityNet-screenshots/3.jpg">    
+            <img src="/img/AbilityNet-screenshots/3.jpg" title="E-learning Screenshot" />
+   
 
 <h3> AbilityNet </h3>
 
