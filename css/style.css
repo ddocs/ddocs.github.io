@@ -222,7 +222,7 @@ header h1 {
 
 /* Vertical menu */
 .vertical-menu {
-    width: 200px; /* Set a width if you like */
+    width: 100px; /* Set a width if you like */
     font-family: 'Fredericka the Great', cursive;
     font-size: 40px;
 }
@@ -246,7 +246,7 @@ header h1 {
 /* The dropdown container */
 .dropdown {
  float: left;
- overflow: hidden;
+ overflow: visible;
 }
 /* Dropdown button */
 .dropdown .dropbtn {
@@ -290,11 +290,11 @@ header h1 {
 
 /* Dropdown button */
 .dropdown .dropbtn {
- font-size: 20px;
+ font-size: 40px;
  border: none;
  outline: none;
  color: black;
- padding: 14px 14px;
+ padding: 14px,0px,14px;
  background-color: inherit;
  font-family: inherit; /* Important for vertical align on mobile phones */
  margin: 0; /* Important for vertical align on mobile phones */
@@ -307,7 +307,7 @@ header h1 {
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
- display: none;
+ display: visible;
  position: absolute;
  background-color: #f9f9f9;
  min-width: 160px;
