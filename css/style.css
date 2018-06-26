@@ -224,14 +224,14 @@ header h1 {
 .vertical-menu {
     width: 200px; /* Set a width if you like */
     font-family: 'Fredericka the Great', cursive;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .vertical-menu a {
     background-color: white; /* white background color */
     color: black; /* Black text color */
     display: block; /* Make the links appear below each other */
-    padding: 25px; /* Add some padding */
+    padding: 14px,14px,5px,20px; /* Add some padding */
     text-decoration: none; /* Remove underline from links */
 }
 
@@ -250,7 +250,7 @@ header h1 {
 }
 /* Dropdown button */
 .dropdown .dropbtn {
- font-size: 16px;
+ font-size: 40px;
  border: none;
  outline: none;
  color: black;
