@@ -129,7 +129,7 @@ hr {
   margin:0 0 20px;
 }
 
-blockquote {
+/* blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
   padding:0 0 0 20px;
@@ -183,6 +183,8 @@ pre > code {
   border: none;
   padding: 0;
 }
+
+*/
 
 table {
   width:100%;
@@ -243,27 +245,28 @@ header h1 {
     background-color: #66CDAA; /* Medium aquamarine color to the "active/current" link */
     color: white;
 }
-/* The dropdown container */
+/* The dropdown container 
 .dropdown {
  float: left;
  overflow: visible;
 }
-/* Dropdown button */
+/* Dropdown button 
 .dropdown .dropbtn {
  font-size: 40px;
  border: none;
  outline: none;
  color: black;
  padding: 20px,0px,20px,;
- font-family: inherit; /* Important for vertical align on mobile phones */
+ font-family: inherit; /* Important for vertical align on mobile phones
  margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Dropdown content */
+/* Dropdown content 
 .dropdown-content {
   font-size: 16px
  
 }
+*/
 
 /* Navbar container */
 .navbar {
@@ -278,7 +281,7 @@ header h1 {
  font-size: 20px;
  color: black;
  text-align: left;
- padding: 12px 14px 5px 30px;
+ padding: 5px 14px 5px 30px;
  text-decoration: none;
 }
 
@@ -329,7 +332,7 @@ header h1 {
  display: block;
 }
 
-/*Portfolio gallery */
+/*Portfolio gallery 
 
 div.gallery {
     border: 1px solid #ccc;
@@ -358,6 +361,7 @@ div.desc {
     float: left;
     width: 24.99999%;
 }
+*/ 
 
 @media only screen and (max-width: 700px) {
     .responsive {
@@ -452,7 +456,6 @@ div.desc {
 .pagination li a.active:hover {
   background: #f8f8f8;
 }
-
 
 /* Post Content */
 
@@ -689,7 +692,7 @@ div.home footer {
   max-width: 300px;
 }
 
-/* jotForm Styling */
+/* jotForm Styling 
 
 form {
   margin: 0;
@@ -819,6 +822,7 @@ form {
   padding-top: 5px;
   color: red;
 }
+*/
 
 @media print, screen and (max-width: 720px) {
   .form-all li#id_18,
