@@ -209,11 +209,11 @@ th {
 /* Header / Sidebar Top */
 
 header {
-  width:315px;
-  float:right;
+  width:275px;
+  float:left;
   position:fixed;
   border-right: 1px solid #eee;
-  padding: 60px 10px 40px 100px;
+  padding: 60px 10px 40px 60px;
   min-height: 100%;
   margin: -50px 0;
 }
@@ -224,7 +224,7 @@ header h1 {
 
 /* Vertical menu */
 .vertical-menu {
-    width: 120px; /* Set a width if you like */
+    width: 275px; /* Set a width if you like */
     font-family: 'Fredericka the Great', cursive;
     font-size: 40px;
 }
@@ -331,6 +331,15 @@ header h1 {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
  display: block;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  width:275px;
+  float:left;
+  position:fixed;
+  bottom:50px;
 }
 
 /*Portfolio gallery 
@@ -516,14 +525,7 @@ a.post-banner:hover { background-size: auto 104%; }
 
 /* Footer / Sidebar */
 
-footer {
-  font-size: 14px;
-  text-align: center;
-  width:275px;
-  float:left;
-  position:fixed;
-  bottom:50px;
-}
+
 
 img.avatar {
   border-radius: 40px;
