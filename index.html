@@ -3,6 +3,7 @@ layout: default
 title: About
 ---
 <head>
+
 </head>
 
 <div class="wrapper">
@@ -11,10 +12,10 @@ title: About
         <hr>
         <p> Hi, I’m Anita Diamond, a Hertfordshire based documentation specialist, experienced technical writer and information developer. This is my website for showcasing my technical writing experience and helping you get to know me a little. To discuss how I can create great documentation for your next project, please call me on <strong>+44 7948 381510</strong> or send an email to <strong>anita@ddocs.co.uk</strong>.</p>
 
-        
-          <img src="/img/about-images/anita.jpg" title="Anita Diamond" />
 
-        
+          <img src="/img/about-images/profile.png" title="Anita Diamond" />
+
+
         <br>
         <h2> Technical content with a human focus </h2>
         <p> There is often a gap between the language used by creators of technologically sophisticated products or processes and the end users who need to engage with them.</p>
@@ -26,7 +27,224 @@ title: About
         <p> I am an experienced UX focused technical writer with a BSc Information Systems & Management, MA Medical Anthropology and a PGDip Psychology. I am also a Certified Trainer with a passion for lifelong learning.</p>
 
         <p> I bring a talent for documentation design merged with an understanding of how people think and feel.</p>
+<!--
+        <!-- <h1 id="running-a-kiosk-on-ubuntu-core">Running a kiosk on Ubuntu Core</h1> -->
+<!--  -->
+        <!-- <h3 id="overview">Overview</h3> -->
+<!--  -->
+        <!-- <p>This tutorial is ideal for someone seeking to build a kiosk-style device with Ubuntu Core. It showcases a set of Qt applications as examples of apps you could run on a kiosk.</p> -->
+<!--  -->
+        <!-- <h3 id="contents">Contents</h3> -->
+<!--  -->
+        <!-- <p><a href="#setting_up">Setting up</a></p> -->
+        <!-- <p><a href="#quick_demo">Quick Demo</a></p> -->
+        <!-- <p><a href="#tutorial">Tutorial</a></p> -->
+        <!-- <p><a href="#tips">Tips</a></p> -->
+        <!-- <p><a href="#resources">Resources</a></p> -->
+<!--  -->
+        <!-- <h3 id="setting-up">Setting up</h3> -->
+<!--  -->
+        <!-- <p>These examples have been tested on the following devices:</p> -->
+        <!-- <ul> -->
+        <!-- <li>amd64 kvm-qemu based VM</li> -->
+        <!-- <li>armhf/Raspberry Pi 3</li> -->
+        <!-- <li>arm64/dragonboard 410c</li> -->
+        <!-- </ul> -->
+        <!-- <p>To install Ubuntu Core on one of these devices, see <a href="https://developer.ubuntu.com/core/get-started">Get Started</a></p> -->
+        <!-- <blockquote> -->
+        <!-- <p><strong>Note</strong>: for RPi2 and RPi3, GPU support is not yet in the stable Ubuntu Core image, you will need to use the <a href="http://cdimage.ubuntu.com/ubuntu-core/16/edge/current/">daily edge image for RPi2/3</a></p> -->
+        <!-- </blockquote> -->
+<!--  -->
+        <!-- <h3 id="quick-demo">Quick Demo</h3> -->
+        <!-- <ol> -->
+        <!-- <li><p>Download the latest <a href="http://cdimage.ubuntu.com/ubuntu-core/16/stable/current/">Ubuntu Core stable image</a> or the <a href="http://cdimage.ubuntu.com/ubuntu-core/16/edge/current/">latest daily edge image for RPi2/3</a> and install it on your desired device/VM.</p></li> -->
+        <!-- <li><p>SSH into it and install the <strong>mir-kiosk</strong> and <strong>mir-kiosk-apps</strong> snaps in this particular order:</p></li> -->
+        <!-- </ol> -->
+        <!-- <pre><code>snap install mir-kiosk --channel=beta</code></pre> -->
+        <!-- <pre><code>snap install mir-kiosk-apps --channel=beta -->
+        <!-- </code></pre> -->
+        <!-- <ol start="3"> -->
+        <!-- <li>The <strong>photoviewer</strong> application should start automatically</li> -->
+        <!-- </ol> -->
+        <!-- <p>There are other examples included.</p> -->
+        <!-- <ol start="4"> -->
+        <!-- <li>To see the list of available apps:</li> -->
+        <!-- </ol> -->
+        <!-- <p>Enter the snap set command with an empty value, like this:</p> -->
+        <!-- <pre><code>snap set mir-kiosk-apps app=&quot; &quot; -->
+        <!-- </code></pre> -->
+        <!-- <ol start="5"> -->
+        <!-- <li>To change applications: Use the snap set command as in the following example:<em>To bring up the RSSNews app:</em></li> -->
+        <!-- </ol> -->
+        <!-- <pre><code>snap set mir-kiosk-apps app=rssnews</code></pre> -->
+        <!-- <p>Once an app is set, it starts on the display connected to your device.</p> -->
+<!--  -->
+        <!-- <h3 id="tutorial">Tutorial</h3> -->
+        <!-- <br> -->
+<!--  -->
+        <!-- <h4 id="introduction">Introduction</h4> -->
+<!--  -->
+        <!-- <p>The <strong>mir-kiosk-apps snap</strong> is an example of a mir client, which can be used as a template to create your own client applications.</p> -->
+        <!-- <p><strong>Ubuntu Core</strong> provides a solution for GL/GLES drivers to be hosted by the core and accessed by snaps. With this solution in place, you can build an app using GLES on one platform and run on another. For instance, build on Intel and run on Nvidia, or vice versa. Please <a href="#">let the snap team know</a> if you discover any issues around this.</p> -->
+        <!-- <p>The <strong>mir-kiosk snap</strong> is only targeted at Ubuntu Core, not other <strong>snapd</strong> supported OSes. It is intended for kiosk-like products and applications.</p> -->
+<!--  -->
+        <!-- <p>This document targets <strong>Ubuntu Core</strong> devices and assumes your host machine is running an up to date version of Ubuntu 16.04 LTS (or above), using the latest versions of snapcraft and snapd.</p> -->
+<!--  -->
+        <!-- <h4 id="prerequisites">Prerequisites</h4> -->
+        <!-- <p>It is possible to install the <strong>mir snaps</strong> on a bare metal install of <strong>Ubuntu Core</strong> following these instructions. However, this tutorial focuses on using a virtual machine to support a quick experience without needing a separate device.</p> -->
+        <!-- <h5 id="install-virtual-machine-manager">Install Virtual Machine Manager</h5> -->
+        <!-- <ol> -->
+        <!-- <li>To Install <strong>Virtual Machine Manager</strong> and have a local display for your VM use the following:</li> -->
+        <!-- </ol> -->
+        <!-- <pre><code>sudo apt ins -->
+        <!-- </code></pre> -->
+        <!-- <ol start="2" type="1"> -->
+          <!-- <li>To create the first user on the <strong>Ubuntu Core</strong> installation on first boot, you need an <strong>Ubuntu SSO account</strong>.</li> -->
+        <!-- </ol> -->
+        <!-- <ol type="a"> -->
+          <!-- <li>Start by creating an <strong>Ubuntu SSO account</strong>.</li> -->
+          <!-- <li>Import an SSH Key into your <strong>Ubuntu SSO account </strong>on this page. <a href="#">Instructions to generate an SSH Key on your computer</a></li> -->
+        <!-- </ol> -->
+        <!-- <ol start="3" type="1"> -->
+          <!-- <li><a href="#">Download</a> the Ubuntu Core image and set up your VM environment.</li> -->
+          <!-- <li><a href="#">Download the latest stable Ubuntu Core image for amd64</a> and uncompress it with the following commands:</li> -->
+        <!-- </ol> -->
+        <!-- <pre><code>wget http://cdimage.ubuntu.com/ubuntu-core/16/stable/current/ubuntu-core-16-amd64.img.xz -->
+          <!-- unxz ubuntu-core-16-amd64.img.xz</code></pre> -->
+          <!-- <ol start="5" type="1"> -->
+            <!-- <li>Launch <strong>Virtual Machine Manager</strong>.</li> -->
+            <!-- <li>Select the icon for <strong>New Virtual Machine</strong> or <strong>File </strong> > <strong>New Virtual Machine.</strong></li> -->
+            <!-- <li>To set the virtual machine engine, go to <strong>File</strong> > <strong>Add Connection</strong> and select <strong>QEMU/KVM</strong>.</li> -->
+            <!-- <li>Import the image you just uncompressed as follows:</li> -->
+          <!-- </ol> -->
+          <!-- <ol type="a"> -->
+            <!-- <li>In the <strong>New Virtual Machine </strong>dialog, select the radio button for <strong>Import Existing Disk Image</strong>, browse to your <strong>.img file</strong> and select it.</li> -->
+            <!-- <li>Leave the other defaults.</li> -->
+            <!-- <li>After selecting your way forward, a window launches with your <strong>Ubuntu Core image VM</strong> running in it.</li> -->
+            <!-- <li>Once the system boots, a prompt to walk through the Ubuntu Core first boot setup appears. This provides you with an IP address and user name for you to SSH into your device or VM.</li> -->
+          <!-- </ol> -->
+<!--  -->
+          <!-- <h5 id="install-the-mir-kiosk-snap">Install the mir-kiosk snap</h5> -->
+          <!-- <p>Install the mir-kiosk snap with the following commands via SSH into your device or VM.</p> -->
+          <!-- <pre><code>ssh$ snap install mir-kiosk --channel=beta</code></pre> -->
+          <!-- <p>A successful mir-kiosk launch results in a black screen with a mouse cursor.</p> -->
+          <!-- <h5 id="get-the-mir-kiosk-apps-snap-running">Get the mir-kiosk-apps snap running</h5> -->
+          <!-- <p>This section assumes the Mir server is up and running, and the earlier steps for setting up have been followed.</p> -->
+          <!-- <ol type="1"> -->
+            <!-- <li>On your host, install the <strong>snapcraft tools</strong> <em>(Skip this step if you have already installed the snapcraft tools)</em></li> -->
+          <!-- </ol> -->
+          <!-- <pre><code>sudo apt install snapcraft</code></pre> -->
+          <!-- <ol start="2" type="1"> -->
+            <!-- <li>Clone the <strong>mir-kiosk-apps</strong> snap branch:</li> -->
+          <!-- </ol> -->
+          <!-- <pre><code>git clone https://github.com/MirServer/mir-kiosk-apps -->
+            <!-- cd mir-kiosk-apps</code></pre> -->
+            <!-- <blockquote> -->
+              <!-- <p><strong>Note</strong>: Familiarise yourself with the files <em>‘snapcraft.yaml’</em> and <em>‘mir-kiosk-app-daemon’</em> as these are key to building your own client-application to run on mir-kiosk. <em>snapcraft.yaml</em> can be inspected for guidelines on what stage packages are being used. <strong>mir-kiosk-app-daemon </strong>can be used to determine which environment variables need to be set. The last lines can be modified to change the example application called.</p> -->
+            <!-- </blockquote> -->
+            <!-- <ol start="3" type="1"> -->
+              <!-- <li>Run <strong>snapcraft </strong>to build the snap on a Xenial 16.04 host:</li> -->
+            <!-- </ol> -->
+            <!-- <pre><code>snapcraft</code></pre> -->
+            <!-- <ol start="4" type="1"> -->
+              <!-- <li>Copy your snap over to your <strong>Ubuntu Core </strong>device or VM:</li> -->
+            <!-- </ol> -->
+            <!-- <pre><code>scp mir-kiosk-apps*.snap &lt;username&gt;@&lt;IP address&gt;:/home/&lt;username&gt;</code></pre> -->
+            <!-- <ol start="5" type="1"> -->
+              <!-- <li>SSH to the device or VM and install it:</li> -->
+            <!-- </ol> -->
+            <!-- <pre><code>ssh$ snap install mir-kiosk-apps*.snap --dangerous</code></pre> -->
+            <!-- <p>A successful install starts the photoviewer application automatically.</p> -->
 
-    </section>
+
+<!-- <h1 id="basic-testing-with-owasp-zap-python-api">Basic Testing with OWASP ZAP Python API</h1>
+<p>The ZAP Python API is a useful tool for automating security testing with ZAP.</p>
+<p>This tutorial provides a walk-through for using the ZAP Python API to spider and scan an application.</p>
+<p><strong>Spidering</strong> involves ZAP visiting a known URL, crawling that page for links to other pages and visiting them. ZAP repeats the same process on the newly found pages.</p>
+<p><strong>Active Scanning</strong> progresses from spidering and involves ZAP visiting all the URLs found through spidering and actively trying to exploit vulnerabilities.</p>
+<h2 id="tutorial-steps">Tutorial Steps</h2>
+<ol type="1">
+<li><p><a href="#obtain-an-example-python-script">Obtain an example script from the ZAP script library</a></p></li>
+<li><p><a href="#run-a-spider-and-scanning-script">Run a spider and scanning script</a></p></li>
+<li><p><a href="#report-the-results">Report the results</a></p></li>
+</ol>
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>You will need the <strong>ZAP Python API Client</strong>. To obtain it do either of the following:</p>
+<ul>
+<li>Download the latest Python implementation from <a href="https://pypi.python.org/pypi/python-owasp-zap-v2.4">PyPi</a></li>
+</ul>
+<p class="note"><strong>NOTE:</strong> the 2.4 package name has been kept to make it easier to upgrade</p>
+
+<p><strong>OR</strong></p>
+<ul>
+<li>Run the following command:</li>
+</ul>
+<p><pre>
+  <code>pip install python-owasp-zap-v2.4</code></pre>
+<h2 id="obtain-an-example-python-script">Obtain an example python script</h2>
+<p>This script is ideal for standalone security testing or as a way to spider and scan after using ZAP as a proxy for your functional tests.</p>
+<p>Obtain the script <a href="https://github.com/zaproxy/zaproxy/blob/develop/python/scripts/generic-pytest/test_zap.py">test_zap.py</a></p>
+<p>The script is configured via the config file <a href="zaproxy/python/scripts/generic-pytest/test_zap.config">test_zap.config</a></p>
+<h2 id="run-a-spider-and-scanning-script">Run a spider and scanning script</h2>
+<ol type="1">
+<li>Start up ZAP with the following bash script:</li>
+</ol>
+<pre><code>/opt/zap/zap.sh –daemon –config api.key=“123456” –port $port &amp; while $(! netstat –anp | grep $port | grep LISTEN ); do    if [[ $counter = 300 ]]; then        exit 1;    fi;    echo “sleeping $counter”; counter=$((counter+1));    sleep 1s; done echo “done sleeping”;
+</code></pre>
+<ol start="2" type="1">
+<li>Start by loading the required modules:</li>
+</ol>
+<pre><code>from zapv2 import ZAPv2
+  from pprint import pprint
+  import time
+</code></pre>
+<ol start="3" type="1">
+<li>Define the <strong>Target</strong> to scan</li>
+</ol>
+<pre><code>target = 'http://127.0.0.1'
+</code></pre>
+<p>Change the <strong>API key</strong> to match the one set in ZAP, or use <strong>None</strong> if the API key is disabled.</p>
+<ol start="4" type="1">
+<li>Instantiate a ZAP instance as follows:</li>
+</ol>
+<pre><code>zap = ZAPv2
+  (apikey=apikey)</code></pre>
+<p>By default the ZAP API client will connect to <strong>port 8080</strong>. If ZAP is listening to a non-default port e.g port 8090 then specify this as follows:</p>
+<pre><code>zap = ZAPv2(apikey=apikey, proxies={'http': 'http://127.0.0.1:8090', 'https': 'http://127.0.0.1:8090'})</code></pre>
+<ol start="5" type="1">
+<li>Set the <strong>Target</strong> and begin a session</li>
+</ol>
+<pre><code>print 'Accessing target %s' % target zap.urlopen(target)'</code></pre>
+<ol start="6" type="1">
+<li>Allow time for the <strong>sites tree</strong> to update</li>
+</ol>
+<pre><code>time.sleep(2) print 'Spidering target %s' % target scanid = zap.spider.scan(target)</code></pre>
+<ol start="7" type="1">
+<li>The <strong>Spider</strong> takes a few moments to start</li>
+</ol>
+<pre><code>time.sleep(2) while (int(zap.spider.status(scanid)) &lt; 100): print ‘Spider progress %:’ + zap.spider.status(scanid) time.sleep(2)</code></pre>
+<pre><code>print &#39;Spider completed&#39;`</code></pre>
+<p>The Spider is completed and the <strong>Active Scan</strong> begins.</p>
+<ol start="8" type="1">
+<li>The <strong>Active Scan</strong> takes a few moments to finish</li>
+</ol>
+<pre><code>time.sleep(5) print ‘Scanning target %s’ % target scanid = zap.ascan.scan(target) while (int(zap.ascan.status(scanid)) &lt; 100): print ‘Scan progress %:’ + zap.ascan.status(scanid) time.sleep(5)</code></pre>
+<pre><code>print ‘Scan completed’`</code></pre>
+<p>The <strong>Spider</strong> and the <strong>Active Scan</strong> are completed.</p>
+<h2 id="report-the-results">Report the results</h2>
+<p>A <strong>Report</strong> can be generated of alerts associated with each identified vulnerability.</p>
+<pre><code>print 'Hosts: ' + ', '.join(zap.core.hosts) print 'Alerts: ' print (zap.core.alerts())</code></pre>
+<h2 id="conclusion">Conclusion</h2>
+<p>Use the report to identify and fix vulnerabilities then perform the test again to check the fix.</p>
+<h4 id="tip">Tip</h4>
+<p>Be aware that spidering and scanning large applications can take a long time. If possible, configure testing to run overnight.</p>
+<h2 id="resources">Resources</h2>
+<p>For help using OWASP ZAP API refer to:</p>
+<p><a href="https://github.com/zaproxy/zap-api-python/tree/master/src/examples">Examples</a> - collection of examples using the library</p>
+<p><a href="https://github.com/zaproxy/zaproxy/wiki/ApiDetails">Wiki</a></p>
+<p><a href="https://groups.google.com/group/zaproxy-users">OWASP ZAP User Group</a> - for asking questions</p> -->
+
+  </section>
 
 </div>
