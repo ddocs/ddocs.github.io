@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great:400regular|Lato:300italic,700italic,300,700);
 
 
 /* Scaffolding */
@@ -6,7 +5,9 @@
 body {
   margin: 0;
   padding:50px;
-  font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+
+  /* font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; */
   color:#333;
   font-weight:300;
 }
@@ -25,6 +26,20 @@ body {
   clear: both;
 }
 
+.container {
+  width:950px;
+  margin:0 auto;
+  *zoom: 1;
+}
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+.container:after {
+  clear: both;
+}
+
 img {
   max-width:100%;
   float: right;
@@ -34,7 +49,10 @@ img {
 
 /* Typography */
 
-font-family: 'Fredericka the Great', cursive;
+/* font-family: 'Shadows Into Light', cursive; */
+/* font-family: 'Fredericka the Great', cursive; */
+
+font-family: 'Noto Serif SC', serif;
 
 h1, h2, h3, h4, h5, h6 {
    margin:0 0 20px;
@@ -49,7 +67,7 @@ h1, h2, h3, h4 {
 }
 
 h1, h2, h3, h4 {
- font-family: 'Fredericka the Great', cursive;
+font-family: 'Noto Serif SC', serif;
 }
 
 h1 {
@@ -101,6 +119,11 @@ a:hover small {
 strong {
   color:#222;
   font-weight:700;
+}
+
+p.note {
+  border-left: 3px solid red;
+  padding-left: 4px;
 }
 
 section {
@@ -245,12 +268,12 @@ header h1 {
     background-color: #66CDAA; /* Medium aquamarine color to the "active/current" link */
     color: white;
 }
-/* The dropdown container 
+/* The dropdown container
 .dropdown {
  float: left;
  overflow: visible;
 }
-/* Dropdown button 
+/* Dropdown button
 .dropdown .dropbtn {
  font-size: 40px;
  border: none;
@@ -261,50 +284,50 @@ header h1 {
  margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Dropdown content 
+/* Dropdown content
 .dropdown-content {
   font-size: 16px
- 
+
 }
 */
 
 /* Navbar container */
-.navbar {
+/* .navbar {
  overflow: hidden;
  background-color: #ffff;
  font-family: 'Fredericka the Great', cursive;
-}
+} */
 
 /* Links inside the navbar */
-.navbar a {
+/* .navbar a {
  float: left;
  font-size: 20px;
  color: black;
  text-align: left;
  padding: 5px 14px 5px 30px;
  text-decoration: none;
-}
+} */
 
 /* The dropdown container */
-.dropdown {
+/* .dropdown {
  float: left;
  overflow: hidden;
-}
+} */
 
 /* Dropdown button */
-.dropdown .dropbtn {
+/* .dropdown .dropbtn {
  font-size: 40px;
  border: none;
  outline: none;
  color: black;
  padding: 20px,0px,20px;
  font-family: inherit; /* Important for vertical align on mobile phones */
- margin: 0; /* Important for vertical align on mobile phones */
-}
+ /* margin: 0; /* Important for vertical align on mobile phones */
+} */ */
 
 
 /* Dropdown content (visible by default) */
-.dropdown-content {
+/* .dropdown-content {
  display: visible;
  position: absolute;
  font-size: 16px;
@@ -314,7 +337,7 @@ header h1 {
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+/* .dropdown-content a {
  float: none;
  color: black;
  padding: 10px 0px 10px;
@@ -324,25 +347,25 @@ header h1 {
 }
 
 /* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
+/* .dropdown-content a:hover {
  background-color: #F0F8FF;
-}
+} */
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+/* .dropdown:hover .dropdown-content {
  display: block;
-}
+} */ */ */
 
 footer {
   font-size: 14px;
-  text-align: center;
+  /* text-align: center; */
   width:275px;
   float:left;
   position:fixed;
   bottom:50px;
 }
 
-/*Portfolio gallery 
+/*Portfolio gallery
 
 div.gallery {
     border: 1px solid #ccc;
@@ -371,7 +394,7 @@ div.desc {
     float: left;
     width: 24.99999%;
 }
-*/ 
+*/
 
 @media only screen and (max-width: 700px) {
     .responsive {
@@ -475,7 +498,7 @@ div.desc {
   padding-bottom:50px;
   min-height: 400px;
   overflow: hidden;
-}  
+}
 
 .post-title {
   margin-bottom: 0;
@@ -695,7 +718,7 @@ div.home footer {
   max-width: 300px;
 }
 
-/* jotForm Styling 
+/* jotForm Styling
 
 form {
   margin: 0;
