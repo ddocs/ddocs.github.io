@@ -246,28 +246,28 @@ header h1 {
 }
 
 /* Vertical menu */
-.vertical-menu {
+/* .vertical-menu {
     width: 275px; /* Set a width if you like */
-    font-family: 'Fredericka the Great', cursive;
+    /* font-family: 'Fredericka the Great', cursive;
     font-size: 40px;
 }
 
 .vertical-menu a {
     background-color: white; /* white background color */
-    color: black; /* Black text color */
-    display: block; /* Make the links appear below each other */
-    padding: 20px,0px,20px; /* Add some padding */
-    text-decoration: none; /* Remove underline from links */
+    /* color: black; /* Black text color */ */
+    /* display: block; /* Make the links appear below each other */ */
+    /* padding: 20px,0px,20px; /* Add some padding */ */
+    /* text-decoration: none; /* Remove underline from links */ */
+/* } */
+
+/* .vertical-menu a:hover { */
+    /* background-color: #F0F8FF; /* Alice Blue background on mouse-over */ */
 }
 
-.vertical-menu a:hover {
-    background-color: #F0F8FF; /* Alice Blue background on mouse-over */
-}
-
-.vertical-menu a.active {
-    background-color: #66CDAA; /* Medium aquamarine color to the "active/current" link */
-    color: white;
-}
+/* .vertical-menu a.active { */
+    /* background-color: #66CDAA; /* Medium aquamarine color to the "active/current" link */ */
+    /* color: white; */
+/* } */ */ */
 /* The dropdown container
 .dropdown {
  float: left;
