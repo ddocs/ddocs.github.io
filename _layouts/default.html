@@ -3,33 +3,105 @@
 <head>
     <meta charset=utf-8 />
     <title>  Diamond Documentation |  Technical Writer </title>
+
+    <!-- <link rel="stylesheet" href="/css/pygment_trac.css"> -->
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/pygment_trac.css">
-    <link rel="stylesheet" href="/css/jquery.bxslider.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"> -->
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Noto+Serif+SC" rel="stylesheet">
+
+
 
 </head>
 
 <body>
     <div class="wrapper">
         <header>
-          <div class="vertical-menu">
+
+
+
+
+
+
+          <!-- <div class="vertical-menu">
      <a href="/about">About</a>
      <a href="/blog">Blog</a>
-        <div class="dropdown">
+
+
+     <div class="dropdown">
+       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-caret-down"></i>Portfolio</button>
+       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+         <a class="dropdown-item" href="/portfolio/api">API documentation</a>
+         <a class="dropdown-item" href="/portfolio/instr">Instructional Design</a>
+         <a class="dropdown-item" href="/portfolio/help">Online Help</a>
+         <a class="dropdown-item" href="/portfolio/sw">Software Documentation</a>
+         <a class="dropdown-item" href="/portfolio/prod">User Manuals</a>
+       </div>
+     </div> -->
+
+
+        <!-- <div class="dropdown">
             <button class="dropbtn"><i class="fas fa-caret-down"></i>Portfolio</button>
             <div class="dropdown-content">
              <a href="/portfolio/api">API documentation</a>
              <a href="/portfolio/instr">Instructional Design</a>
              <a href="/portfolio/help">Online Help</a>
-             <a href="/portfolio/sw">Software Documentation</a>  
+             <a href="/portfolio/sw">Software Documentation</a>
              <a href="/portfolio/SOP">Standard Operating Procedures</a>
              <a href="/portfolio/sw">Software Documentation</a>
              <a href="/portfolio/prod">User Manuals</a>
             </div>
-        </div>
-   </div>
-        </header>
+        </div> -->
+
+        <!-- </header> -->
+
+        <div class="container">
+
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="index.html">About</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/portfolio/api.html">API docs</a></li>
+                <li><a href="/portfolio/sw.html">Software Manuals</a></li>
+                <li><a href="/portfolio/prod.html">Product Manuals</a></li>
+                <li><a href="/portfolio/help.html">MadCap Flare - Help</a></li>
+                <li><a href="/portfolio/instr.html">Articulate - Instructional Design</a></li>
+                <li><a href="/portfolio/tut.html">Tutorials</a></li>
+              </ul>
+            </li>
+            <li><a href="/blog/index.html">Blog</a></li>
+
+          </ul>
+
+
+        <!-- <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="/index.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/portfolio/inst.html">API documentation</a>
+              <a class="dropdown-item" href="/portfolio/help.html">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog/index.html">Blog</a>
+          </li>
+        </ul>  -->
+
+
 
       {{content}}
 
@@ -38,18 +110,18 @@
 
                       <p> Call: 07948 381510 </p>
 
-                      <p> Email: anita@ddocs.co.uk </p>
+                      <p> Email: anita AT ddocs DOT co DOT uk </p>
 
 
-                    <small>©2018 Anita Diamond </small><br />
+                    <small>©2019 Anita Diamond </small><br />
                     <small>Made with <a href="http://jekyllrb.com/">Jekyll</a></small>
                 </p>
         </footer>
     </div>
-    <body>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-    <script src="/js/jquery.bxslider.min.js"></script>
-    <script src="/js/scale.fix.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
+
   </body>
 </html>
