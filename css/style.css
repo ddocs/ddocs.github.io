@@ -245,35 +245,35 @@ header h1 {
   margin-bottom: 12px;
 }
 
-/* Vertical menu */
-/* .vertical-menu {
+Vertical menu 
+.vertical-menu {
     width: 275px; /* Set a width if you like */
-    /* font-family: 'Fredericka the Great', cursive;
+    font-family: 'Noto Serif SC', serif;
     font-size: 40px;
 }
 
 .vertical-menu a {
     background-color: white; /* white background color */
-    /* color: black; /* Black text color */ */
-    /* display: block; /* Make the links appear below each other */ */
-    /* padding: 20px,0px,20px; /* Add some padding */ */
-    /* text-decoration: none; /* Remove underline from links */ */
-/* } */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */ 
+    padding: 20px,0px,20px; /* Add some padding */ 
+    text-decoration: none; /* Remove underline from links */ 
+ }
 
-/* .vertical-menu a:hover { */
-    /* background-color: #F0F8FF; /* Alice Blue background on mouse-over */ */
+.vertical-menu a:hover 
+    background-color: #F0F8FF; /* Alice Blue background on mouse-over */
 }
 
-/* .vertical-menu a.active { */
-    /* background-color: #66CDAA; /* Medium aquamarine color to the "active/current" link */ */
-    /* color: white; */
-/* } */ */ */
-/* The dropdown container
+.vertical-menu a.active {
+    background-color: #66CDAA; /* Medium aquamarine color to the "active/current" link */ 
+    color: white;
+}
+
 .dropdown {
  float: left;
  overflow: visible;
 }
-/* Dropdown button
+ Dropdown button
 .dropdown .dropbtn {
  font-size: 40px;
  border: none;
@@ -281,17 +281,17 @@ header h1 {
  color: black;
  padding: 20px,0px,20px,;
  font-family: inherit; /* Important for vertical align on mobile phones
- margin: 0; /* Important for vertical align on mobile phones */
+ margin: 0; /* Important for vertical align on mobile phones
 }
 
-/* Dropdown content
+Dropdown content
 .dropdown-content {
   font-size: 16px
 
 }
-*/
 
-/* Navbar container */
+
+Navbar container
 /* .navbar {
  overflow: hidden;
  background-color: #ffff;
