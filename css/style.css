@@ -497,6 +497,7 @@ div.desc {
   width:600px;
   float:right;
   padding-bottom:50px;
+  padding-left:100px;
   min-height: 400px;
   overflow: hidden;
 }
