@@ -131,6 +131,7 @@ section {
   float:right;
   padding-left: 50px;
   padding-bottom:50px;
+  padding-left:50px;
   min-height: 400px;
   overflow: hidden;
 }
@@ -497,6 +498,7 @@ div.desc {
   width:600px;
   float:right;
   padding-bottom:50px;
+  padding-left:100px;
   min-height: 400px;
   overflow: hidden;
 }
